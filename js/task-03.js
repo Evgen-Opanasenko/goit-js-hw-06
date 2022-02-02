@@ -17,7 +17,7 @@ const galleryEl = document.querySelector("ul.gallery");
 
 const imagesEl = (images) => {
   return images.map(({ url, alt }) => {
-    const indexString = `<li class="item-img"><img src=${url} alt=${alt} width "300" height="250"></li>`;
+    const indexString = `<li class="item-img"><img src=${url} alt=${alt} width="300" height="250"></li>`;
     return indexString;
   });
 };
@@ -30,3 +30,5 @@ galleryEl.style.display = "flex";
 galleryEl.style.justifyContent = "space-between";
 galleryEl.style.listStyle = "none";
 console.log(galleryEl);
+
+<div background-color="#7900f1" width="70" hight="70"></div>;
